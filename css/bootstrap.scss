@@ -8,7 +8,7 @@
 $custom-colors: (
   "primary": #008aaf,
   "secondary": #d4d4d3,
-
+  "text-primary":#008AAF,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
