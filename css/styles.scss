@@ -4,6 +4,8 @@
 
 body {
 	margin: 0;
+	max-height: 900px;
+	background-color: #d4d4d3;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,9 +36,13 @@ img {
 .rounded-4{
 	border-radius: 0.8rem;
 }
-.svg{
-	width: 5%;
-	fill:#696969 ;
+
+.height25{
+	height: 25px;
+}
+
+.height50{
+	height: 50px;
 }
 
 .height75{
