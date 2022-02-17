@@ -9,7 +9,9 @@ $custom-colors: (
   "primary": #008aaf,
   "secondary": #d4d4d3,
   "text-primary":#008AAF,
-        "background-color":#ffff
+        "background-color":#ffff,
+        "text-secondary":#fff,
+        "btn-primary":#008AAF,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
